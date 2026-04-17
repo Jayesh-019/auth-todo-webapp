@@ -53,7 +53,7 @@ auth-todo-webapp/
 
 bash
 git clone <your-repo-url>
-cd auth-todo-api
+cd auth-todo-webapp
 
 
 ### 2️⃣ Install Dependencies
@@ -68,7 +68,7 @@ Create a .env file in root:
 
 
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:2717/todoDB
+MONGO_URI=mongodb://127.0.0.1:27017/todoDB
 JWT_SECRET= securty key 
 
 
